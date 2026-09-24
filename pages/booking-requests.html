@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Requests | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/owner.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span style="font-weight:600; color:var(--dark-green);">Owner Panel</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+
+<div class="owner-layout">
+  <aside class="sidebar">
+    <div class="sidebar-title">Owner Menu</div>
+    <ul>
+      <li><a href="owner-dashboard.html">Dashboard</a></li>
+      <li><a href="my-properties.html">My Properties</a></li>
+      <li><a href="add-property.html">Add Property</a></li>
+      <li><a href="add-room.html">Rooms</a></li>
+      <li><a href="availability.html">Availability</a></li>
+      <li><a href="booking-requests.html" class="active">Booking Requests</a></li>
+      <li><a href="owner-reviews.html">Reviews</a></li>
+      <li><a href="property-analytics.html">Analytics</a></li>
+      <li><a href="owner-profile.html">Profile</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+
+  <main class="dashboard-main">
+    <div class="dashboard-topbar"><h1>Booking Requests</h1></div>
+    <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Student</th><th>Property</th><th>Room</th><th>Request Date</th><th>Move-in Date</th><th>Status</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Ananya Sharma</td><td>Green Nest PG</td><td>Single Sharing</td><td>10 Sep 2026</td><td>01 Oct 2026</td>
+            <td><span class="badge badge-pending">Pending</span></td>
+            <td><a href="#" class="btn btn-primary btn-sm">Accept</a> <a href="#" class="btn btn-danger btn-sm">Reject</a></td>
+          </tr>
+          <tr>
+            <td>Rohit Verma</td><td>Sunrise Rooms</td><td>Double Sharing</td><td>05 Sep 2026</td><td>28 Sep 2026</td>
+            <td><span class="badge badge-approved">Accepted</span></td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>Priya Singh</td><td>Green Nest PG</td><td>Single Sharing</td><td>01 Sep 2026</td><td>05 Sep 2026</td>
+            <td><span class="badge badge-rejected">Rejected</span></td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>Karan Mehta</td><td>Sunrise Rooms</td><td>Double Sharing</td><td>14 Sep 2026</td><td>10 Oct 2026</td>
+            <td><span class="badge badge-pending">Pending</span></td>
+            <td><a href="#" class="btn btn-primary btn-sm">Accept</a> <a href="#" class="btn btn-danger btn-sm">Reject</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+</body></html>

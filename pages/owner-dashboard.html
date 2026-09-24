@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Owner Dashboard | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/owner.css">
+</head>
+<body>
+
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span style="font-weight:600; color:var(--dark-green);">Owner Panel</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+
+<div class="owner-layout">
+  <aside class="sidebar">
+    <div class="sidebar-title">Owner Menu</div>
+    <ul>
+      <li><a href="owner-dashboard.html" class="active">Dashboard</a></li>
+      <li><a href="my-properties.html">My Properties</a></li>
+      <li><a href="add-property.html">Add Property</a></li>
+      <li><a href="add-room.html">Rooms</a></li>
+      <li><a href="availability.html">Availability</a></li>
+      <li><a href="booking-requests.html">Booking Requests</a></li>
+      <li><a href="owner-reviews.html">Reviews</a></li>
+      <li><a href="property-analytics.html">Analytics</a></li>
+      <li><a href="owner-profile.html">Profile</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+
+  <main class="dashboard-main">
+    <div class="dashboard-topbar">
+      <h1>Welcome back, Rajesh Kumar</h1>
+      <a href="add-property.html" class="btn btn-primary">+ Add Property</a>
+    </div>
+
+    <div class="dashboard-cards">
+      <div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Total Properties</div></div>
+      <div class="stat-card"><div class="stat-value">22</div><div class="stat-label">Total Rooms</div></div>
+      <div class="stat-card"><div class="stat-value">9</div><div class="stat-label">Available Rooms</div></div>
+      <div class="stat-card"><div class="stat-value">6</div><div class="stat-label">Booking Requests</div></div>
+      <div class="stat-card"><div class="stat-value">86</div><div class="stat-label">Total Reviews</div></div>
+    </div>
+
+    <div class="panel">
+      <h3>Recent Booking Requests</h3>
+      <div class="table-wrapper">
+        <table>
+          <thead><tr><th>Student</th><th>Property</th><th>Room</th><th>Move-in Date</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td>Ananya Sharma</td><td>Green Nest PG</td><td>Single Sharing</td><td>01 Oct 2026</td><td><span class="badge badge-pending">Pending</span></td></tr>
+            <tr><td>Rohit Verma</td><td>Sunrise Rooms</td><td>Double Sharing</td><td>28 Sep 2026</td><td><span class="badge badge-approved">Accepted</span></td></tr>
+            <tr><td>Priya Singh</td><td>Green Nest PG</td><td>Single Sharing</td><td>05 Sep 2026</td><td><span class="badge badge-rejected">Rejected</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>My Properties</h3>
+      <div class="card-grid" style="grid-template-columns:repeat(2,1fr);">
+        <div class="property-card">
+          <div class="ph-img">Green Nest PG</div>
+          <div class="property-card-body">
+            <div class="flex-between"><h3>Green Nest PG</h3><span class="badge badge-available">Active</span></div>
+            <span class="property-meta">📍 Shastri Nagar, Meerut</span>
+            <span class="property-meta">6 Rooms &middot; 4 Available</span>
+          </div>
+          <div class="property-card-actions"><a href="my-properties.html" class="btn btn-outline btn-sm">Manage</a></div>
+        </div>
+        <div class="property-card">
+          <div class="ph-img">Sunrise Rooms</div>
+          <div class="property-card-body">
+            <div class="flex-between"><h3>Sunrise Rooms</h3><span class="badge badge-available">Active</span></div>
+            <span class="property-meta">📍 Delhi Road, Meerut</span>
+            <span class="property-meta">8 Rooms &middot; 3 Available</span>
+          </div>
+          <div class="property-card-actions"><a href="my-properties.html" class="btn btn-outline btn-sm">Manage</a></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+</body></html>

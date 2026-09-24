@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Reviews | Perfect Space Admin</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span class="admin-tag" style="background:var(--dark-green); color:#fff; padding:6px 16px; border-radius:20px; font-size:0.82rem; font-weight:700;">ADMIN</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+<div class="admin-layout">
+  <aside class="admin-sidebar">
+    <div class="sidebar-title">Admin Panel</div>
+    <ul>
+      <li><a href="admin-dashboard.html">Dashboard</a></li>
+      <li><a href="admin-students.html">Students</a></li>
+      <li><a href="admin-owners.html">Owners</a></li>
+      <li><a href="admin-properties.html">Properties</a></li>
+      <li><a href="admin-bookings.html">Bookings</a></li>
+      <li><a href="admin-reports.html">Reports</a></li>
+      <li><a href="admin-reviews.html" class="active">Reviews</a></li>
+      <li><a href="admin-analytics.html">Analytics</a></li>
+      <li><a href="admin-block-users.html">Block Users</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+  <main class="admin-main">
+    <div class="admin-topbar"><h1>Manage Reviews</h1></div>
+    <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Student</th><th>Property</th><th>Rating</th><th>Review</th><th>Date</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Ananya Sharma</td><td>Green Nest PG</td><td class="rating">★★★★★</td><td>Very clean rooms and great food.</td><td>12 Aug 2026</td><td><a href="#" class="btn btn-danger btn-sm">Remove</a></td></tr>
+          <tr><td>Rohit Verma</td><td>Green Nest PG</td><td class="rating">★★★★☆</td><td>Good location, WiFi could be better.</td><td>02 Jul 2026</td><td><a href="#" class="btn btn-danger btn-sm">Remove</a></td></tr>
+          <tr><td>Priya Singh</td><td>Sunrise Rooms</td><td class="rating">★★★★★</td><td>Owner is very helpful and responsive.</td><td>20 Jun 2026</td><td><a href="#" class="btn btn-danger btn-sm">Remove</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+</body></html>

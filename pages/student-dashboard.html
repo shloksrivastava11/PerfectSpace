@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Dashboard | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/student.css">
+</head>
+<body>
+
+<nav class="navbar dashboard-header"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <input type="checkbox" id="nav-toggle">
+  <label for="nav-toggle" class="nav-toggle-label"><span></span><span></span><span></span></label>
+  <div class="nav-links">
+    <a href="student-dashboard.html" class="active">Home</a>
+    <a href="search.html">Search PG/Rooms</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="my-requests.html">My Requests</a>
+    <a href="student-profile.html">Profile</a>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+    <div class="nav-actions-mobile" style="display:none;"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <div class="container">
+    <h1>Find Your Perfect PG or Room</h1>
+    <p>Search, compare and choose accommodation easily.</p>
+    <form class="search-box" action="search.html" method="get">
+      <input type="text" name="location" placeholder="Location">
+      <input type="number" name="budget" placeholder="Budget (₹/month)">
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Recommended Properties</h2>
+    <p class="section-subtitle">Based on your recent searches</p>
+    <div class="card-grid">
+      <div class="property-card">
+        <div class="ph-img">Green Nest PG</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Green Nest PG</h3><span class="badge badge-available">Available</span></div>
+          <span class="property-meta">📍 Shastri Nagar, Meerut</span>
+          <span class="property-meta">🛏️ Single Sharing</span>
+          <span class="rating">★★★★☆ 4.2</span>
+          <span class="property-price">₹8,500 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+          <a href="compare.html" class="btn btn-outline btn-sm">⇄ Compare</a>
+        </div>
+      </div>
+      <div class="property-card">
+        <div class="ph-img">Sunrise Rooms</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Sunrise Rooms</h3><span class="badge badge-available">Available</span></div>
+          <span class="property-meta">📍 Delhi Road, Meerut</span>
+          <span class="property-meta">🛏️ Double Sharing</span>
+          <span class="rating">★★★★★ 4.7</span>
+          <span class="property-price">₹6,200 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+          <a href="compare.html" class="btn btn-outline btn-sm">⇄ Compare</a>
+        </div>
+      </div>
+      <div class="property-card">
+        <div class="ph-img">Elite PG for Girls</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Elite PG for Girls</h3><span class="badge badge-available">Available</span></div>
+          <span class="property-meta">📍 Garh Road, Meerut</span>
+          <span class="property-meta">🛏️ Double Sharing</span>
+          <span class="rating">★★★★★ 4.8</span>
+          <span class="property-price">₹7,500 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+          <a href="compare.html" class="btn btn-outline btn-sm">⇄ Compare</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-20"><a href="search.html" class="btn btn-outline">Browse All Properties</a></div>
+  </div>
+</section>
+
+<footer><div class="container"><div class="footer-bottom">&copy; 2026 Perfect Space. All rights reserved.</div></div></footer>
+</body></html>

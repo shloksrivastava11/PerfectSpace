@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search PG / Room | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/student.css">
+</head>
+<body>
+
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links">
+    <a href="student-dashboard.html">Home</a>
+    <a href="search.html" class="active">Search PG/Rooms</a>
+    <a href="favorites.html">Favorites</a>
+    <a href="my-requests.html">My Requests</a>
+    <a href="student-profile.html">Profile</a>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+
+<div class="page-header"><div class="container"><h1>Search PG / Room</h1><p>Use filters to find the property that suits you best</p></div></div>
+
+<section class="section">
+  <div class="container search-layout">
+
+    <aside class="filter-panel">
+      <h3>Filter Properties</h3>
+      <form>
+        <div class="filter-group"><label>Location</label><input type="text" placeholder="e.g. Meerut"></div>
+        <div class="filter-group"><label>Minimum Rent (₹)</label><input type="number" placeholder="3000"></div>
+        <div class="filter-group"><label>Maximum Rent (₹)</label><input type="number" placeholder="12000"></div>
+        <div class="filter-group">
+          <label>Room Type</label>
+          <select><option>Any</option><option>Single Sharing</option><option>Double Sharing</option><option>Triple Sharing</option></select>
+        </div>
+        <div class="filter-group">
+          <label>Furnishing</label>
+          <select><option>Any</option><option>Fully Furnished</option><option>Semi Furnished</option><option>Unfurnished</option></select>
+        </div>
+        <div class="filter-group">
+          <label>Availability</label>
+          <div class="checkbox-row"><input type="checkbox" checked><span>Available Only</span></div>
+        </div>
+        <div class="filter-group">
+          <label>Minimum Rating</label>
+          <select><option>Any</option><option>3+ Stars</option><option>4+ Stars</option><option>4.5+ Stars</option></select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Apply Filters</button>
+      </form>
+    </aside>
+
+    <div>
+      <div class="flex-between mb-20"><p class="section-subtitle" style="margin:0;">Showing 6 properties</p></div>
+      <div class="card-grid">
+
+        <div class="property-card">
+          <div class="ph-img">Green Nest PG</div>
+          <div class="property-card-body">
+            <div class="flex-between"><h3>Green Nest PG</h3><span class="badge badge-available">Available</span></div>
+            <span class="property-meta">📍 Shastri Nagar, Meerut</span>
+            <span class="property-meta">🛏️ Single Sharing</span>
+            <span class="rating">★★★★☆ 4.2</span>
+            <span class="property-price">₹8,500 / month</span>
+          </div>
+          <div class="property-card-actions">
+            <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="favorites.html" class="btn btn-outline btn-sm">♥</a>
+            <a href="compare.html" class="btn btn-outline btn-sm">⇄</a>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="ph-img">Sunrise Rooms</div>
+          <div class="property-card-body">
+            <div class="flex-between"><h3>Sunrise Rooms</h3><span class="badge badge-available">Available</span></div>
+            <span class="property-meta">📍 Delhi Road, Meerut</span>
+            <span class="property-meta">🛏️ Double Sharing</span>
+            <span class="rating">★★★★★ 4.7</span>
+            <span class="property-price">₹6,200 / month</span>
+          </div>
+          <div class="property-card-actions">
+            <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="favorites.html" class="btn btn-outline btn-sm">♥</a>
+            <a href="compare.html" class="btn btn-outline btn-sm">⇄</a>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="ph-img">Urban Stay PG</div>
+          <div class="property-card-body">
+            <div class="flex-between"><h3>Urban Stay PG</h3><span class="badge badge-unavailable">Full</span></div>
+            <span class="property-meta">📍 Civil Lines, Meerut</span>
+            <span class="property-meta">🛏️ Triple Sharing</span>
+            <span class="rating">★★★★☆ 4.0</span>
+            <span class="property-price">₹5,800 / month</span>
+          </div>
+          <div class="property-card-actions">
+            <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="favorites.html" class="btn btn-outline btn-sm">♥</a>
+            <a href="compare.html" class="btn btn-outline btn-sm">⇄</a>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="ph-img">Comfort Homes</div>
+          <div class="property-card-body">
+            <div class="flex-between"><h3>Comfort Homes</h3><span class="badge badge-available">Available</span></div>
+            <span class="property-meta">📍 University Road, Meerut</span>
+            <span class="property-meta">🛏️ Single Room</span>
+            <span class="rating">★★★★☆ 4.4</span>
+            <span class="property-price">₹9,000 / month</span>
+          </div>
+          <div class="property-card-actions">
+            <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="favorites.html" class="btn btn-outline btn-sm">♥</a>
+            <a href="compare.html" class="btn btn-outline btn-sm">⇄</a>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="ph-img">Elite PG for Girls</div>
+          <div class="property-card-body">
+            <div class="flex-between"><h3>Elite PG for Girls</h3><span class="badge badge-available">Available</span></div>
+            <span class="property-meta">📍 Garh Road, Meerut</span>
+            <span class="property-meta">🛏️ Double Sharing</span>
+            <span class="rating">★★★★★ 4.8</span>
+            <span class="property-price">₹7,500 / month</span>
+          </div>
+          <div class="property-card-actions">
+            <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="favorites.html" class="btn btn-outline btn-sm">♥</a>
+            <a href="compare.html" class="btn btn-outline btn-sm">⇄</a>
+          </div>
+        </div>
+
+        <div class="property-card">
+          <div class="ph-img">Metro View Rooms</div>
+          <div class="property-card-body">
+            <div class="flex-between"><h3>Metro View Rooms</h3><span class="badge badge-available">Available</span></div>
+            <span class="property-meta">📍 Begum Bridge, Meerut</span>
+            <span class="property-meta">🛏️ Single Sharing</span>
+            <span class="rating">★★★★☆ 4.1</span>
+            <span class="property-price">₹7,000 / month</span>
+          </div>
+          <div class="property-card-actions">
+            <a href="property-details.html" class="btn btn-primary btn-sm">View Details</a>
+            <a href="favorites.html" class="btn btn-outline btn-sm">♥</a>
+            <a href="compare.html" class="btn btn-outline btn-sm">⇄</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="container"><div class="footer-bottom">&copy; 2026 Perfect Space. All rights reserved.</div></div></footer>
+</body></html>

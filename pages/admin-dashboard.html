@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span class="admin-tag" style="background:var(--dark-green); color:#fff; padding:6px 16px; border-radius:20px; font-size:0.82rem; font-weight:700;">ADMIN</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+
+<div class="admin-layout">
+  <aside class="admin-sidebar">
+    <div class="sidebar-title">Admin Panel</div>
+    <ul>
+      <li><a href="admin-dashboard.html" class="active">Dashboard</a></li>
+      <li><a href="admin-students.html">Students</a></li>
+      <li><a href="admin-owners.html">Owners</a></li>
+      <li><a href="admin-properties.html">Properties</a></li>
+      <li><a href="admin-bookings.html">Bookings</a></li>
+      <li><a href="admin-reports.html">Reports</a></li>
+      <li><a href="admin-reviews.html">Reviews</a></li>
+      <li><a href="admin-analytics.html">Analytics</a></li>
+      <li><a href="admin-block-users.html">Block Users</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+
+  <main class="admin-main">
+    <div class="admin-topbar"><h1>Platform Overview</h1><span class="admin-tag">Administrator</span></div>
+
+    <div class="dashboard-cards admin-cards">
+      <div class="stat-card"><div class="stat-value">1,240</div><div class="stat-label">Total Students</div></div>
+      <div class="stat-card"><div class="stat-value">186</div><div class="stat-label">Total Owners</div></div>
+      <div class="stat-card"><div class="stat-value">312</div><div class="stat-label">Total Properties</div></div>
+      <div class="stat-card"><div class="stat-value">14</div><div class="stat-label">Pending Properties</div></div>
+      <div class="stat-card"><div class="stat-value">842</div><div class="stat-label">Total Bookings</div></div>
+      <div class="stat-card"><div class="stat-value">9</div><div class="stat-label">Reports</div></div>
+      <div class="stat-card"><div class="stat-value">1,530</div><div class="stat-label">Reviews</div></div>
+    </div>
+
+    <div class="panel">
+      <h3>Properties Awaiting Verification</h3>
+      <div class="table-wrapper">
+        <table>
+          <thead><tr><th>Property</th><th>Owner</th><th>Location</th><th>Submitted</th><th>Status</th><th>Action</th></tr></thead>
+          <tbody>
+            <tr><td>Urban Stay PG</td><td>Suresh Nair</td><td>Civil Lines, Meerut</td><td>14 Sep 2026</td><td><span class="badge badge-pending">Pending</span></td>
+              <td><a href="admin-properties.html" class="btn btn-primary btn-sm">Verify</a> <a href="admin-properties.html" class="btn btn-danger btn-sm">Reject</a></td></tr>
+            <tr><td>Hilltop Residency</td><td>Meena Joshi</td><td>Cantt Road, Meerut</td><td>12 Sep 2026</td><td><span class="badge badge-pending">Pending</span></td>
+              <td><a href="admin-properties.html" class="btn btn-primary btn-sm">Verify</a> <a href="admin-properties.html" class="btn btn-danger btn-sm">Reject</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Recent Reports</h3>
+      <div class="table-wrapper">
+        <table>
+          <thead><tr><th>Reported Property</th><th>Reason</th><th>Student</th><th>Date</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td>Metro View Rooms</td><td>Incorrect Information</td><td>Karan Mehta</td><td>10 Sep 2026</td><td><span class="badge badge-pending">Pending</span></td></tr>
+            <tr><td>Comfort Homes</td><td>Misleading Photos</td><td>Neha Gupta</td><td>08 Sep 2026</td><td><span class="badge badge-approved">Resolved</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</div>
+
+</body></html>

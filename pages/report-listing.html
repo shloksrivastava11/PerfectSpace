@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Report Listing | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><a href="student-dashboard.html">Home</a><a href="property-details.html">Back to Property</a></div>
+</div></nav>
+
+<div class="form-wrapper">
+  <h2>Report This Listing</h2>
+  <p class="form-subtitle">Let us know if something looks wrong with Green Nest PG.</p>
+  <form action="student-dashboard.html" method="get">
+    <div class="form-group">
+      <label>Reason</label>
+      <select required>
+        <option value="">Select a reason</option>
+        <option>Incorrect Information</option>
+        <option>Fake Listing</option>
+        <option>Property Not Available</option>
+        <option>Misleading Photos</option>
+        <option>Inappropriate Content</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="form-group"><label>Description</label><textarea placeholder="Describe the issue in detail" required></textarea></div>
+    <button type="submit" class="btn btn-danger btn-block">Submit Report</button>
+  </form>
+</div>
+
+<footer><div class="container"><div class="footer-bottom">&copy; 2026 Perfect Space. All rights reserved.</div></div></footer>
+</body></html>

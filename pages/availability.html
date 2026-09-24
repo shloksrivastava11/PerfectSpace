@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Availability | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/owner.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span style="font-weight:600; color:var(--dark-green);">Owner Panel</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+
+<div class="owner-layout">
+  <aside class="sidebar">
+    <div class="sidebar-title">Owner Menu</div>
+    <ul>
+      <li><a href="owner-dashboard.html">Dashboard</a></li>
+      <li><a href="my-properties.html">My Properties</a></li>
+      <li><a href="add-property.html">Add Property</a></li>
+      <li><a href="add-room.html">Rooms</a></li>
+      <li><a href="availability.html" class="active">Availability</a></li>
+      <li><a href="booking-requests.html">Booking Requests</a></li>
+      <li><a href="owner-reviews.html">Reviews</a></li>
+      <li><a href="property-analytics.html">Analytics</a></li>
+      <li><a href="owner-profile.html">Profile</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+
+  <main class="dashboard-main">
+    <div class="dashboard-topbar"><h1>Manage Availability</h1></div>
+    <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Room Number</th><th>Room Type</th><th>Rent</th><th>Status</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>101</td><td>Single Sharing</td><td>₹8,500</td><td><span class="badge badge-available">Available</span></td><td><a href="add-room.html" class="btn btn-outline btn-sm">Edit</a></td></tr>
+          <tr><td>102</td><td>Double Sharing</td><td>₹6,200</td><td><span class="badge badge-occupied">Occupied</span></td><td><a href="add-room.html" class="btn btn-outline btn-sm">Edit</a></td></tr>
+          <tr><td>103</td><td>Single Sharing</td><td>₹8,500</td><td><span class="badge badge-available">Available</span></td><td><a href="add-room.html" class="btn btn-outline btn-sm">Edit</a></td></tr>
+          <tr><td>104</td><td>Triple Sharing</td><td>₹5,800</td><td><span class="badge badge-occupied">Occupied</span></td><td><a href="add-room.html" class="btn btn-outline btn-sm">Edit</a></td></tr>
+          <tr><td>105</td><td>Double Sharing</td><td>₹6,200</td><td><span class="badge badge-available">Available</span></td><td><a href="add-room.html" class="btn btn-outline btn-sm">Edit</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+</body></html>

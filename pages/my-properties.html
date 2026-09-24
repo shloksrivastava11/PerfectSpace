@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Properties | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/owner.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span style="font-weight:600; color:var(--dark-green);">Owner Panel</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+
+<div class="owner-layout">
+  <aside class="sidebar">
+    <div class="sidebar-title">Owner Menu</div>
+    <ul>
+      <li><a href="owner-dashboard.html">Dashboard</a></li>
+      <li><a href="my-properties.html" class="active">My Properties</a></li>
+      <li><a href="add-property.html">Add Property</a></li>
+      <li><a href="add-room.html">Rooms</a></li>
+      <li><a href="availability.html">Availability</a></li>
+      <li><a href="booking-requests.html">Booking Requests</a></li>
+      <li><a href="owner-reviews.html">Reviews</a></li>
+      <li><a href="property-analytics.html">Analytics</a></li>
+      <li><a href="owner-profile.html">Profile</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+
+  <main class="dashboard-main">
+    <div class="dashboard-topbar"><h1>My Properties</h1><a href="add-property.html" class="btn btn-primary">+ Add Property</a></div>
+
+    <div class="card-grid" style="grid-template-columns:repeat(3,1fr);">
+      <div class="property-card">
+        <div class="ph-img">Green Nest PG</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Green Nest PG</h3><span class="badge badge-active">Active</span></div>
+          <span class="property-meta">📍 Shastri Nagar, Meerut</span>
+          <span class="property-meta">6 Rooms &middot; 4 Available</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="add-room.html" class="btn btn-outline btn-sm">Edit Rooms</a>
+          <a href="availability.html" class="btn btn-outline btn-sm">Availability</a>
+        </div>
+      </div>
+      <div class="property-card">
+        <div class="ph-img">Sunrise Rooms</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Sunrise Rooms</h3><span class="badge badge-active">Active</span></div>
+          <span class="property-meta">📍 Delhi Road, Meerut</span>
+          <span class="property-meta">8 Rooms &middot; 3 Available</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="add-room.html" class="btn btn-outline btn-sm">Edit Rooms</a>
+          <a href="availability.html" class="btn btn-outline btn-sm">Availability</a>
+        </div>
+      </div>
+      <div class="property-card">
+        <div class="ph-img">Urban Stay PG</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Urban Stay PG</h3><span class="badge badge-pending">Pending Review</span></div>
+          <span class="property-meta">📍 Civil Lines, Meerut</span>
+          <span class="property-meta">Awaiting Admin Verification</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="add-room.html" class="btn btn-outline btn-sm">Edit Rooms</a>
+          <a href="availability.html" class="btn btn-outline btn-sm">Availability</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body></html>

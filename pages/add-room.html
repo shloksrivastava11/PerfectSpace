@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Rooms | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/owner.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span style="font-weight:600; color:var(--dark-green);">Owner Panel</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+
+<div class="owner-layout">
+  <aside class="sidebar">
+    <div class="sidebar-title">Owner Menu</div>
+    <ul>
+      <li><a href="owner-dashboard.html">Dashboard</a></li>
+      <li><a href="my-properties.html">My Properties</a></li>
+      <li><a href="add-property.html">Add Property</a></li>
+      <li><a href="add-room.html" class="active">Rooms</a></li>
+      <li><a href="availability.html">Availability</a></li>
+      <li><a href="booking-requests.html">Booking Requests</a></li>
+      <li><a href="owner-reviews.html">Reviews</a></li>
+      <li><a href="property-analytics.html">Analytics</a></li>
+      <li><a href="owner-profile.html">Profile</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+
+  <main class="dashboard-main">
+    <div class="dashboard-topbar"><h1>Add Room</h1></div>
+    <div class="panel">
+      <form action="availability.html" method="get">
+        <div class="form-group"><label>Property</label>
+          <select><option>Green Nest PG</option><option>Sunrise Rooms</option><option>Urban Stay PG</option></select>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Room Number</label><input type="text" placeholder="e.g. 101" required></div>
+          <div class="form-group"><label>Room Type</label>
+            <select required><option>Single Sharing</option><option>Double Sharing</option><option>Triple Sharing</option></select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Rent (₹/month)</label><input type="number" placeholder="e.g. 8500" required></div>
+          <div class="form-group"><label>Furnishing</label>
+            <select><option>Fully Furnished</option><option>Semi Furnished</option><option>Unfurnished</option></select>
+          </div>
+        </div>
+        <div class="form-group"><label>Facilities</label><input type="text" placeholder="e.g. WiFi, AC, Attached Washroom"></div>
+        <div class="form-group">
+          <label>Availability</label>
+          <div class="checkbox-row"><input type="checkbox" checked><span>Available for booking</span></div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Add Room</button>
+      </form>
+    </div>
+
+    <div class="panel">
+      <h3>Set Rent Details</h3>
+      <div class="form-row">
+        <div class="form-group"><label>Monthly Rent (₹)</label><input type="number" placeholder="8500"></div>
+        <div class="form-group"><label>Security Deposit (₹)</label><input type="number" placeholder="10000"></div>
+        <div class="form-group"><label>Other Charges (₹)</label><input type="number" placeholder="500"></div>
+      </div>
+      <button class="btn btn-outline">Update Rent</button>
+    </div>
+  </main>
+</div>
+</body></html>

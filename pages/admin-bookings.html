@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Bookings | Perfect Space Admin</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span class="admin-tag" style="background:var(--dark-green); color:#fff; padding:6px 16px; border-radius:20px; font-size:0.82rem; font-weight:700;">ADMIN</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+<div class="admin-layout">
+  <aside class="admin-sidebar">
+    <div class="sidebar-title">Admin Panel</div>
+    <ul>
+      <li><a href="admin-dashboard.html">Dashboard</a></li>
+      <li><a href="admin-students.html">Students</a></li>
+      <li><a href="admin-owners.html">Owners</a></li>
+      <li><a href="admin-properties.html">Properties</a></li>
+      <li><a href="admin-bookings.html" class="active">Bookings</a></li>
+      <li><a href="admin-reports.html">Reports</a></li>
+      <li><a href="admin-reviews.html">Reviews</a></li>
+      <li><a href="admin-analytics.html">Analytics</a></li>
+      <li><a href="admin-block-users.html">Block Users</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+  <main class="admin-main">
+    <div class="admin-topbar"><h1>Manage Bookings</h1></div>
+    <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Student</th><th>Owner</th><th>Property</th><th>Room</th><th>Request Date</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Ananya Sharma</td><td>Rajesh Kumar</td><td>Green Nest PG</td><td>Single Sharing</td><td>10 Sep 2026</td><td><span class="badge badge-pending">Pending</span></td></tr>
+          <tr><td>Rohit Verma</td><td>Rajesh Kumar</td><td>Sunrise Rooms</td><td>Double Sharing</td><td>05 Sep 2026</td><td><span class="badge badge-approved">Accepted</span></td></tr>
+          <tr><td>Priya Singh</td><td>Rajesh Kumar</td><td>Green Nest PG</td><td>Single Sharing</td><td>01 Sep 2026</td><td><span class="badge badge-rejected">Rejected</span></td></tr>
+          <tr><td>Karan Mehta</td><td>Suresh Nair</td><td>Urban Stay PG</td><td>Triple Sharing</td><td>14 Sep 2026</td><td><span class="badge badge-pending">Pending</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+</body></html>

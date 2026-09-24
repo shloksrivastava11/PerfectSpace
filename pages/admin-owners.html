@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage Owners | Perfect Space Admin</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><span class="admin-tag" style="background:var(--dark-green); color:#fff; padding:6px 16px; border-radius:20px; font-size:0.82rem; font-weight:700;">ADMIN</span>
+    <div class="nav-actions"><a href="../index.html" class="btn btn-outline btn-sm">Logout</a></div>
+  </div>
+</div></nav>
+<div class="admin-layout">
+  <aside class="admin-sidebar">
+    <div class="sidebar-title">Admin Panel</div>
+    <ul>
+      <li><a href="admin-dashboard.html">Dashboard</a></li>
+      <li><a href="admin-students.html">Students</a></li>
+      <li><a href="admin-owners.html" class="active">Owners</a></li>
+      <li><a href="admin-properties.html">Properties</a></li>
+      <li><a href="admin-bookings.html">Bookings</a></li>
+      <li><a href="admin-reports.html">Reports</a></li>
+      <li><a href="admin-reviews.html">Reviews</a></li>
+      <li><a href="admin-analytics.html">Analytics</a></li>
+      <li><a href="admin-block-users.html">Block Users</a></li>
+      <li><a href="../index.html">Logout</a></li>
+    </ul>
+  </aside>
+  <main class="admin-main">
+    <div class="admin-topbar"><h1>Manage Owners</h1></div>
+    <div class="table-wrapper">
+      <table>
+        <thead><tr><th>Owner Name</th><th>Email</th><th>Phone</th><th>Properties</th><th>Status</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Rajesh Kumar</td><td>rajesh.kumar@example.com</td><td>9812345670</td><td>2</td><td><span class="badge badge-active">Active</span></td><td><a href="#" class="btn btn-outline btn-sm">View</a> <a href="#" class="btn btn-danger btn-sm">Block</a></td></tr>
+          <tr><td>Suresh Nair</td><td>suresh.nair@example.com</td><td>9812345671</td><td>1</td><td><span class="badge badge-active">Active</span></td><td><a href="#" class="btn btn-outline btn-sm">View</a> <a href="#" class="btn btn-danger btn-sm">Block</a></td></tr>
+          <tr><td>Meena Joshi</td><td>meena.joshi@example.com</td><td>9812345672</td><td>1</td><td><span class="badge badge-active">Active</span></td><td><a href="#" class="btn btn-outline btn-sm">View</a> <a href="#" class="btn btn-danger btn-sm">Block</a></td></tr>
+          <tr><td>Deepak Rathi</td><td>deepak.rathi@example.com</td><td>9812345673</td><td>3</td><td><span class="badge badge-blocked">Blocked</span></td><td><a href="#" class="btn btn-outline btn-sm">View</a> <a href="#" class="btn btn-primary btn-sm">Unblock</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+</body></html>

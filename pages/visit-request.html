@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visit Request | Perfect Space</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+<nav class="navbar"><div class="container">
+  <a href="../index.html" class="logo">Perfect<span>Space</span></a>
+  <div class="nav-links"><a href="student-dashboard.html">Home</a><a href="search.html">Search PG/Rooms</a><a href="my-requests.html">My Requests</a></div>
+</div></nav>
+
+<div class="form-wrapper wide">
+  <h2>Request a Visit</h2>
+  <p class="form-subtitle">Fill this form to schedule a visit to Green Nest PG.</p>
+  <form action="my-requests.html" method="get">
+    <div class="form-row">
+      <div class="form-group"><label>Student Name</label><input type="text" placeholder="Your full name" required></div>
+      <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="10-digit mobile number" required></div>
+    </div>
+    <div class="form-group"><label>Email Address</label><input type="email" placeholder="you@example.com" required></div>
+    <div class="form-group"><label>Property</label><input type="text" value="Green Nest PG" readonly></div>
+    <div class="form-row">
+      <div class="form-group"><label>Preferred Date</label><input type="date" required></div>
+      <div class="form-group"><label>Preferred Time</label><input type="time" required></div>
+    </div>
+    <div class="form-group"><label>Message (Optional)</label><textarea placeholder="Any specific requirement or question"></textarea></div>
+    <button type="submit" class="btn btn-primary btn-block">Submit Request</button>
+  </form>
+</div>
+
+<footer><div class="container"><div class="footer-bottom">&copy; 2026 Perfect Space. All rights reserved.</div></div></footer>
+</body></html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perfect Space | Find PGs & Rooms Easily</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Perfect<span>Space</span></a>
+    <input type="checkbox" id="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><span></span><span></span><span></span></label>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="pages/search.html">Find PG/Room</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+      <div class="nav-actions">
+        <a href="pages/student-login.html" class="btn btn-outline btn-sm">Login</a>
+        <a href="pages/student-register.html" class="btn btn-primary btn-sm">Register</a>
+      </div>
+      <div class="nav-actions-mobile" style="display:none;">
+        <a href="pages/student-login.html" class="btn btn-outline btn-sm">Login</a>
+        <a href="pages/student-register.html" class="btn btn-primary btn-sm">Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container">
+    <h1>Find a Comfortable Place to Stay</h1>
+    <p>Discover PGs and rooms that match your needs, budget and lifestyle.</p>
+    <div class="hero-buttons">
+      <a href="pages/search.html" class="btn btn-primary">Find PG / Room</a>
+      <a href="pages/owner-register.html" class="btn btn-outline">List Your Property</a>
+    </div>
+    <form class="search-box" action="pages/search.html" method="get">
+      <input type="text" name="location" placeholder="Location e.g. Meerut">
+      <select name="type">
+        <option value="">Property Type</option>
+        <option>PG</option>
+        <option>Single Room</option>
+        <option>Shared Room</option>
+        <option>Flat</option>
+      </select>
+      <input type="number" name="budget" placeholder="Budget (₹/month)">
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== POPULAR PROPERTIES ===== -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Popular Properties</h2>
+    <p class="section-subtitle">Handpicked PGs and rooms loved by students</p>
+    <div class="card-grid">
+
+      <div class="property-card">
+        <div class="ph-img">Green Nest PG</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Green Nest PG</h3><span class="badge badge-available">Available</span></div>
+          <span class="property-meta">📍 Shastri Nagar, Meerut</span>
+          <span class="property-meta">🛏️ Single Sharing</span>
+          <span class="rating">★★★★☆ 4.2</span>
+          <span class="property-price">₹8,500 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="pages/property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="pages/favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="ph-img">Sunrise Rooms</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Sunrise Rooms</h3><span class="badge badge-available">Available</span></div>
+          <span class="property-meta">📍 Delhi Road, Meerut</span>
+          <span class="property-meta">🛏️ Double Sharing</span>
+          <span class="rating">★★★★★ 4.7</span>
+          <span class="property-price">₹6,200 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="pages/property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="pages/favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="ph-img">Urban Stay PG</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Urban Stay PG</h3><span class="badge badge-unavailable">Full</span></div>
+          <span class="property-meta">📍 Civil Lines, Meerut</span>
+          <span class="property-meta">🛏️ Triple Sharing</span>
+          <span class="rating">★★★★☆ 4.0</span>
+          <span class="property-price">₹5,800 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="pages/property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="pages/favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="ph-img">Comfort Homes</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Comfort Homes</h3><span class="badge badge-available">Available</span></div>
+          <span class="property-meta">📍 University Road, Meerut</span>
+          <span class="property-meta">🛏️ Single Room</span>
+          <span class="rating">★★★★☆ 4.4</span>
+          <span class="property-price">₹9,000 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="pages/property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="pages/favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="ph-img">Elite PG for Girls</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Elite PG for Girls</h3><span class="badge badge-available">Available</span></div>
+          <span class="property-meta">📍 Garh Road, Meerut</span>
+          <span class="property-meta">🛏️ Double Sharing</span>
+          <span class="rating">★★★★★ 4.8</span>
+          <span class="property-price">₹7,500 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="pages/property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="pages/favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="ph-img">Metro View Rooms</div>
+        <div class="property-card-body">
+          <div class="flex-between"><h3>Metro View Rooms</h3><span class="badge badge-available">Available</span></div>
+          <span class="property-meta">📍 Begum Bridge, Meerut</span>
+          <span class="property-meta">🛏️ Single Sharing</span>
+          <span class="rating">★★★★☆ 4.1</span>
+          <span class="property-price">₹7,000 / month</span>
+        </div>
+        <div class="property-card-actions">
+          <a href="pages/property-details.html" class="btn btn-primary btn-sm">View Details</a>
+          <a href="pages/favorites.html" class="btn btn-outline btn-sm">♥ Favorite</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="text-center mt-20">
+      <a href="pages/search.html" class="btn btn-outline">View All Properties</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE PERFECT SPACE ===== -->
+<section class="section" style="background: var(--white);" id="about">
+  <div class="container">
+    <h2 class="section-title">Why Choose Perfect Space</h2>
+    <p class="section-subtitle">Everything you need to find the right accommodation</p>
+    <div class="feature-grid">
+      <div class="feature-card"><div class="feature-icon">🔍</div><h4>Easy Search</h4><p style="color:var(--text-muted); font-size:0.88rem; margin-top:6px;">Find PGs and rooms by location and budget in seconds.</p></div>
+      <div class="feature-card"><div class="feature-icon">✔</div><h4>Verified Listings</h4><p style="color:var(--text-muted); font-size:0.88rem; margin-top:6px;">Every property is reviewed before it goes live.</p></div>
+      <div class="feature-card"><div class="feature-icon">⚖</div><h4>Compare Rooms</h4><p style="color:var(--text-muted); font-size:0.88rem; margin-top:6px;">Compare rent, facilities and ratings side by side.</p></div>
+      <div class="feature-card"><div class="feature-icon">📩</div><h4>Simple Requests</h4><p style="color:var(--text-muted); font-size:0.88rem; margin-top:6px;">Send visit or booking requests with one form.</p></div>
+      <div class="feature-card"><div class="feature-icon">🏠</div><h4>Property Management</h4><p style="color:var(--text-muted); font-size:0.88rem; margin-top:6px;">Owners manage rooms, rent and bookings easily.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">How It Works</h2>
+    <p class="section-subtitle">Get started in three simple steps</p>
+    <div class="steps-grid">
+      <div class="step-card"><div class="step-number">1</div><h4>Search</h4><p style="color:var(--text-muted); font-size:0.9rem; margin-top:6px;">Search PGs and rooms near your college or workplace.</p></div>
+      <div class="step-card"><div class="step-number">2</div><h4>Compare</h4><p style="color:var(--text-muted); font-size:0.9rem; margin-top:6px;">Compare rent, facilities and reviews before deciding.</p></div>
+      <div class="step-card"><div class="step-number">3</div><h4>Request Visit / Booking</h4><p style="color:var(--text-muted); font-size:0.9rem; margin-top:6px;">Send a visit or booking request directly to the owner.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="section" style="background: var(--white);">
+  <div class="container">
+    <h2 class="section-title">What Students Say</h2>
+    <p class="section-subtitle">Real experiences from Perfect Space users</p>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>"I found a great PG near my college within a day. The comparison feature saved me a lot of time."</p>
+        <h4>Ananya Sharma</h4><span style="color:var(--text-muted); font-size:0.85rem;">Student, Meerut</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"Booking requests were simple to send and the owner responded quickly. Very smooth experience."</p>
+        <h4>Rohit Verma</h4><span style="color:var(--text-muted); font-size:0.85rem;">Student, Meerut</span>
+      </div>
+      <div class="testimonial-card">
+        <p>"As a working professional, Perfect Space helped me filter rooms exactly within my budget."</p>
+        <h4>Priya Singh</h4><span style="color:var(--text-muted); font-size:0.85rem;">Working Professional</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>Perfect Space</h3>
+        <p>A simple platform to search, compare and manage PG & room properties.</p>
+      </div>
+      <div>
+        <h4>Student</h4>
+        <ul>
+          <li><a href="pages/student-login.html">Login</a></li>
+          <li><a href="pages/student-register.html">Register</a></li>
+          <li><a href="pages/search.html">Search PG/Room</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Owner</h4>
+        <ul>
+          <li><a href="pages/owner-login.html">Owner Login</a></li>
+          <li><a href="pages/owner-register.html">Owner Register</a></li>
+          <li><a href="pages/owner-dashboard.html">Owner Dashboard</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>support@perfectspace.com</li>
+          <li>+91 90000 00000</li>
+          <li>Ghaziabad, Uttar Pradesh</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Perfect Space. All rights reserved. | Academic Frontend Project
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* =============================================
+   Perfect Space - Responsive Stylesheet
+============================================= */
+
+/* ---------- Tablet ---------- */
+@media (max-width: 1024px) {
+  .card-grid { grid-template-columns: repeat(2, 1fr); }
+  .feature-grid { grid-template-columns: repeat(3, 1fr); }
+  .testimonial-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .search-layout { grid-template-columns: 220px 1fr; }
+  .owner-layout, .admin-layout { grid-template-columns: 210px 1fr; }
+  .dashboard-cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 700px) {
+  .hero h1 { font-size: 1.9rem; }
+  .hero p { font-size: 1rem; }
+  .search-box { flex-direction: column; }
+
+  .card-grid { grid-template-columns: 1fr; }
+  .feature-grid { grid-template-columns: repeat(2, 1fr); }
+  .steps-grid { grid-template-columns: 1fr; }
+  .testimonial-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+
+  /* Nav toggle */
+  .nav-toggle-label { display: block; }
+  .nav-links {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    box-shadow: var(--shadow);
+  }
+  .nav-links a { padding: 14px 24px; width: 100%; border-bottom: 1px solid var(--border); }
+  #nav-toggle:checked ~ .nav-links { max-height: 480px; }
+  .nav-actions { display: none; }
+  #nav-toggle:checked ~ .nav-links .nav-actions-mobile { display: flex; flex-direction: column; gap: 10px; padding: 16px 24px; }
+
+  .search-layout { grid-template-columns: 1fr; }
+  .filter-panel { position: static; }
+
+  .compare-grid { grid-template-columns: 1fr; }
+  .compare-grid .compare-label { border-top: 2px solid var(--green); }
+
+  .owner-layout, .admin-layout { grid-template-columns: 1fr; }
+  .sidebar { position: static; width: 100%; display: flex; overflow-x: auto; padding: 10px; }
+  .sidebar ul { display: flex; gap: 6px; }
+  .sidebar ul li a { white-space: nowrap; padding: 10px 14px !important; }
+  .sidebar .sidebar-title { display: none; }
+
+  .dashboard-cards { grid-template-columns: 1fr 1fr; }
+  .form-row { flex-direction: column; }
+  .form-wrapper { padding: 26px; margin: 30px 16px; }
+}
+
+@media (max-width: 420px) {
+  .dashboard-cards { grid-template-columns: 1fr; }
+}
